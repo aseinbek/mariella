@@ -610,9 +610,106 @@ body {
     font-size: 18px;
 }
 
-/* --------------------header----------------- */
+/* ---------------footer-3------------------- */
 
+.footer-3 {
+    height: 235px;
+    background: #D6BBD3;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
+.footer-3-cards {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-3-cards h3 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-3-cards p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* ----------------footer-4----------------- */
+
+.footer-4 {
+    height: 137px;
+    background: #C9ADC6;
+}
+
+.footer-4Up {
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.footer-4-logo {
+    width: 15%;
+}
+
+.footer-4-span {
+    width: 65%;
+    margin: 15px 20px;
+}
+
+.footer-4-span span {
+    margin: 0 13px;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.footer-4-flogo {
+    width: 20%;
+    justify-content: center;
+}
+
+.footer-4Down {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-4Left {
+    display: flex;
+}
+
+.footer-4Left-cards {
+    margin: 0 10px;
+}
+
+.footer-4Left-cards span {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
 
 /* -------------------repeating--------------- */
 
@@ -679,4 +776,28 @@ nav ul li img {
     width: 100%;
     height: 2px;
     color: rgba(215, 183, 212, 1);
+}
+
+input::-webkit-input-placeholder { 
+    color: white; 
+}
+
+input::-moz-placeholder { 
+    color: white; 
+}
+
+textarea::-webkit-input-placeholder { 
+    color: white; 
+}
+
+textarea::-moz-placeholder { 
+    color: white; 
+}
+
+.footer-2-input ::-webkit-input-placeholder { 
+    color: #ceb3cb;
+}
+
+.footer-2-input ::-moz-placeholder { 
+    color: #ceb3cb;
 }
